@@ -47,6 +47,7 @@ namespace SueldoEmpleados
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(436, 118);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // dataGridView2
             // 
@@ -66,6 +67,7 @@ namespace SueldoEmpleados
             this.btnCargar.TabIndex = 2;
             this.btnCargar.Text = "Cargar Datos";
             this.btnCargar.UseVisualStyleBackColor = true;
+            this.btnCargar.Click += new System.EventHandler(this.btnCargar_Click);
             // 
             // comboBox1
             // 
